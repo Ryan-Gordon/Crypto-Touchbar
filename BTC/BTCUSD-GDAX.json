@@ -1,0 +1,39 @@
+{
+  "BTTPresetName" : "BTC USD GDAX",
+  "BTTPresetUUID" : "74140977-F2A9-4193-9441-295FFCD24963",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTWidgetName" : "BTCUSDGDAX",
+          "BTTTriggerType" : 639,
+          "BTTTriggerTypeDescription" : "Apple Script Widget",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 59,
+          "BTTPredefinedActionName" : "Open URL \/ Open URL With Selection",
+          "BTTOpenURL" : "https:\/\/coinmarketcap.com\/currencies\/bitcoin",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOawAADmsBVP4NBgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAT8SURBVGiB7ZpdbFRFFIC\/s7t3d9uFtlAolAIaE+XPGBKVVERKQ0h8Uh80GDBa1BBNNGiIEB\/0QV+qiZKgJEZRQFTQRF6F1BaKmlSNiRqiYEys4adQKBZa6u7d7T0+XMi2e293Z7YlxtgvaTI9M+eve2fvmTOFSSaZpBgykcb0y9QsnOxqNHIrEW5EtQ6k5upsPyK9wB943jGceLvcPdg7Ub7HnYh+zVSGE+tAN4Ass7CpoF1oZBea3ifNDI4njrIT0TaqcZKbEZ4BnTaeIEAugredhLtNGrlcloVylPRIcgOirUBdOfpFOAuyVZrSH9oqWiWiXVThJnei+pCtIytU9hNLb5QVDJiqGCei7RUNxLw2YFFZwdnzC9HoGlkxdMZksVEienjqDCJuJ7B4XKHZcwwn0yTLuVhqYclE9BApkskO0GVGrp1aqH\/SH3sunNrmj+c+D5G4P+7ZCdk+I3OgXaTc1XIHQ8VWxUraqUjuQg2TAIhNh\/on\/LH3dz6R+haIVPjj8wcsEpFGriQ\/gPTDxVZFik1qZ3z9dd\/YRuha7YyvLbZizE9Ev5lSRy63HbS0n+R8mH6vP3Zm5OUSgzkbg66iFaVtBtmhR6d0yMrB82GTY+4RPZJ4HeEFIxc1q2DBu+Yh6TAMfA+n3oaB78z1kFZpSr8YNhP6aOlhahCesvBgh0ShqhEW74X6xy0U9WltozpsJvzRiiZaUKaWEyMAw0PQ31lgMwXxOqhcQP5BEJi\/BQZ+gMGfTCxX4yQehcxbhRPhiag8YrQ3xiL3F\/y+KXyu8hZY9BHErhbFRGDWOtNEQHQ9EEgk8Ghpe0UD6O2mMVsz9Buc+3i0rHKJhQFZpodTswulwT3iDN9jG5s17tmCKJI22oJkAzEGE9HIUsuw7Km6c\/Tv6W47\/UgwxpA9ojfbWQ1BopCYF5Q702Dmg1B732j5hQO2HgIxhm32mbZWA8Rnw9J2s7XnP4e+L+zsqwbOQWGJTLGzWi4KJ9+AM+9Rxjdk4NUQ9kKc0IbE2AjM3eS\/R4qXfEaEfSJlnZlHkTkNPzYH5fF6v5yZtxliVSCOXylrzv90zLlUKAj+KUTO2Vi0wu2B3n3Q\/dJo+ezHIGbRv9BgjMFEPI5bB2hL30EYvjIiiiRULjTXF04UioKJRLyfywrOCgW34Cju1Fqoe4F6JphIzO0APNvQrIhWQnzOaFn2gqn2MFm3o1AYSMQ\/6KvNIcEOpxZuavWr4Wt4Gbhi\/CB0yZrgZg+vfkX2oDSWEaaPMwMW7g7KYym\/QJQCt737\/NLfBJU9YeLwRIYz+4kkWiH8EFOSSAKql5utvfwtnHzT1HI\/2fRnoS7DhNJMPyI7TK2XReY0dL8Kx1vAS5vpiGwPe6yg2Jnd77L\/CjSUdBCvh5qVV8d10PCsP\/ay8Ocr\/viGlyHi+OMTG+HSV\/7Z3ZxuUpklY\/W3xqwN\/L6rbjFy4fZA76f+T9\/BERO5vJxcXpw5bZsEoFuLNemKFjnS5H6CstPS4\/XgHWlyQ\/fGNUp3GjOZ50gmbzNumeYuQs\/7\/thz8\/Ke3fmWaa5kK3cE2kXK3VxqlXkTW9wjCDaH64nAuIltVD9L88AFNNMItI07NHMO4WXuMkkCLA4C0swgTuZ+UOvbJGtEd+FlHrC5Vyzv6u1osgXV17geV28qW2RVeq+t4v\/7MnQk\/\/nr6TD+zX8YmGSSSYrzDwEMlXAgwfqvAAAAAElFTkSuQmCC",
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "240, 240, 240, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "1",
+            "BTTTouchBarAppleScriptString" : "set json to do shell script \"printf $(curl -s https:\/\/api.gdax.com\/products\/BTC-USD\/ticker | \/usr\/local\/bin\/jq '.price|tonumber')\"\rset json to \"$\" & json\rreturn json",
+            "BTTTouchBarAlternateBackgroundColor" : "109.650002, 109.650002, 109.650002, 255.000000",
+            "BTTTouchBarScriptUpdateInterval" : 5
+          }
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
