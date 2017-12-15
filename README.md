@@ -6,7 +6,7 @@ Example : ![screenshot](https://github.com/FlashGordon95/Crypto-Touchbar/blob/ma
 # Installation
 
 - Download and install [Better Touch Tool](https://www.boastr.net/downloads/). 
-- If you're using the AUD scripts, install `jq` from Homebrew.
+- Install `jq` using [Homebrew](https://brew.sh/) with command `brew install jq`. It needs to be installed into `/usr/local/bin/jq` (this is the default location).
 - Select any of the json docs for your currency.
 - In your Mac's menu bar, click the Better Touch Tool `icon > Preferences`
 - In the bottom left corner of the Better Touch Tool popup window, go to "Manage Presets".
