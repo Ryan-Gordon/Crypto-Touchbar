@@ -10,7 +10,7 @@
       },
       "BTTTriggers" : [
         {
-          "BTTWidgetName" : "LTCAUD",
+          "BTTWidgetName" : "LTCUSD",
           "BTTTriggerType" : 639,
           "BTTTriggerTypeDescription" : "Apple Script Widget",
           "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
