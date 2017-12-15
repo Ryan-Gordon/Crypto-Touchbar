@@ -1,0 +1,40 @@
+
+{
+  "BTTPresetName" : "XRP USD",
+  "BTTPresetUUID" : "74140977-F2A9-4193-9441-295FFCD24963",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTWidgetName" : "XRPUSD",
+          "BTTTriggerType" : 639,
+          "BTTTriggerTypeDescription" : "Apple Script Widget",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 59,
+          "BTTPredefinedActionName" : "Open URL \/ Open URL With Selection",
+          "BTTOpenURL" : "https:\/\/coinmarketcap.com\/currencies\/ripple",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "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",
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "48, 83, 184, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "1",
+            "BTTTouchBarAppleScriptString" : "set json to do shell script \"LC_NUMERIC='en_US.UTF-8' printf '%.2f' $(curl -s http:\/\/coincap.io\/page\/XRP | \/usr\/local\/bin\/jq '.price')\"\rset json to \"$\" & json\rreturn json",
+            "BTTTouchBarAlternateBackgroundColor" : "109.650002, 109.650002, 109.650002, 255.000000",
+            "BTTTouchBarScriptUpdateInterval" : 5
+          }
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
