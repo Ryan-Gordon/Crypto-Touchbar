@@ -1,0 +1,39 @@
+{
+    "BTTPresetName" : "IOTUSD",
+    "BTTPresetUUID" : "74140977-F2A9-4193-9441-295FFCD24963",
+    "BTTPresetContent" : [
+      {
+        "BTTAppBundleIdentifier" : "BT.G",
+        "BTTAppName" : "Global",
+        "BTTAppSpecificSettings" : {
+  
+        },
+        "BTTTriggers" : [
+          {
+            "BTTWidgetName" : "IOTUSD",
+            "BTTTriggerType" : 639,
+            "BTTTriggerTypeDescription" : "Apple Script Widget",
+            "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+            "BTTPredefinedActionType" : 59,
+            "BTTPredefinedActionName" : "Open URL \/ Open URL With Selection",
+            "BTTOpenURL" : "https:\/\/coinmarketcap.com\/currencies\/iota",
+            "BTTEnabled" : 1,
+            "BTTOrder" : 3,
+            "BTTIconData" : "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",
+            "BTTTriggerConfig" : {
+              "BTTTouchBarItemPadding" : 0,
+              "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+              "BTTTouchBarButtonColor" : "19, 77, 78, 255.000000",
+              "BTTTouchBarAlwaysShowButton" : "1",
+              "BTTTouchBarAppleScriptString" : "set json to do shell script \"LC_NUMERIC='en_US.UTF-8' printf '%.2f' $(curl -s https:\/\/api.bitfinex.com\/v2\/ticker\/tIOTUSD | \/usr\/local\/bin\/jq '.[6]')\"\rset json to \"$\" & json\rreturn json",
+              "BTTTouchBarAlternateBackgroundColor" : "109.650002, 109.650002, 109.650002, 255.000000",
+              "BTTTouchBarScriptUpdateInterval" : 5
+            }
+          }
+        ]
+      }
+    ],
+    "BTTPresetSnapAreas" : [
+  
+    ]
+  }
