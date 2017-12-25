@@ -27,7 +27,7 @@
             "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
             "BTTTouchBarButtonColor" : "63.372308, 115.168370, 230.036373, 255.000000",
             "BTTTouchBarAlwaysShowButton" : "1",
-            "BTTTouchBarAppleScriptString" : "set json to do shell script \"LC_NUMERIC='en_US.UTF-8' printf '%.2f' $(curl -s http:\/\/coincap.io\/page\/ETH | \/usr\/local\/bin\/jq '.price')\"\rset json to \"$\" & json\rreturn json",
+            "BTTTouchBarAppleScriptString" : "set json to do shell script \"LC_NUMERIC='en_US.UTF-8' printf '%.2f' $(curl -s http:\/\/coincap.io\/page\/ETH | python -c 'import json,sys;obj=json.load(sys.stdin);print obj[\\\"price\\\"]')\"\rset json to \"$\" & json\rreturn json",
             "BTTTouchBarAlternateBackgroundColor" : "109.650002, 109.650002, 109.650002, 255.000000",
             "BTTTouchBarScriptUpdateInterval" : 5
           }
