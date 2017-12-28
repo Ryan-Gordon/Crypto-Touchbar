@@ -1,0 +1,39 @@
+{
+  "BTTPresetName" : "TRON USD BINANCE",
+  "BTTPresetUUID" : "74140977-F2A9-4193-9441-295FFCD24963",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTWidgetName" : "TRXUSDBINANCE",
+          "BTTTriggerType" : 639,
+          "BTTTriggerTypeDescription" : "Apple Script Widget",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 59,
+          "BTTPredefinedActionName" : "Open URL \/ Open URL With Selection",
+          "BTTOpenURL" : "https:\/\/www.binance.com\/trade.html?symbol=TRX_BTC",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAGMUExURUxpcSIjIyMkJvP29Pr7/f////v9/SQmJSIkI/z+/iEiJCEjIgsNDT9BQf///wsNDOvr7Dc4OP////////z8/P7//xUXFwoLDP////z9/SMlJSIkIyMlJBweHv///////////yAiIf////j5+8bHyP39/fDz9Pz9/TY4N/f4946Qj/H09fX1+BocG5KVlKSmphkbG8vMzBMTFZeZmP////v7+/z8/Kanpw4PD////xcZGf///+Dh4fv7+wACAlZZWP////////b39/v8/Pf4+P////////v7+/7+/hQWFfr8/CMkJvz9/v///3R1dfb4+f///yAiIufo6BocGxETEhYYF/3+/uzs7CIjJCwuMC8xMdfZ2hETEiMkJvr7/f///////w0PDv///6SlpBweHSAiIQ8QEPr6+/z9/SIkI/z9/QkLCv39/f39+jIzM87PzyIkIyIjJf///yMkJiIjJyEjIvz9/SMlJCYoJyYnKSgqKSQlJyUmKB0fHiEiJCQmJRocGyAgIhcYGCgpK0GnJUcAAABwdFJOUwD8/AEC7gP9/gT9/tuJ9slBif60qNz60K8F+cz9uKrk5/7SFZqcLvPF3p2FEK2OuPOq/o3xmVuM1ezu+a+UsZvDzTG5tLjiObyp0v2CybyJ3/yY68/1dHOWiqSJ7/5A6fPo/KLa1ua3wqrv7fgIy7rs5e3MAAABo0lEQVQ4y32T5XPbQBDFz7ZkSYYwc9KGmRkabsPMzNBmtRfJMgX/8epkj2LHkt+HG8393tztrt4RIj3i/V/iIvbCqup/FVhZbO94ewJFfL3Mw/w6wllw9+3DHTCVaZm1WJ9FpO+Om7Lya4jLEcrsRez7ZrqCi2oFTDm0gf5hTCoTlCoNkhSaz11ym4a5EHhRSOQlvAiFqmngxiEg9IhfXMjwsnXxj3mHDrXcgMl5h76Km/hVSBRA6eiOcxFf9UpLcUs1q5A69SaU8lbjDDFDAPE3FsB6Qh+NrMRA21CMr/kr3wLgy0/stMA4vEgERS3xr7KhhNTEsbtqDIN3UJhZLgJ2E51NHndz5FmXLGCF9mx8jY0mG1wNMpNzRI4piCmpeDH22+OGnJT//iPC9t+zYzw7KyUVUhMDUZ/BX9AqeR6dFFLGPTmW+fvQkT/IDD9brLg7j1K6EtGXLt46u9MLssw7adipSjbp3gjTcw+lE5xd/Pnw0Qmlvinb93EcdB7QT9X+kbn3wrv0lEv3CKOl+9tpOJEOz1SS1rCDXFoD+TWZsvUfwImbegCI3pUAAAAASUVORK5CYII=",
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "240, 240, 240, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "1",
+            "BTTTouchBarAppleScriptString" : "set json to do shell script \"THEDATA=\\\"$(curl -s https:\/\/api.binance.com\/api\/v1\/ticker\/allPrices)\\\"; TRXPRICE=$(echo $THEDATA | \/usr\/local\/bin\/jq -r '.[] | select(.symbol==\\\"TRXBTC\\\") | .price'); BTCUSDPRICE=$(echo $THEDATA | \/usr\/local\/bin\/jq '.[] | select(.symbol==\\\"BTCUSDT\\\") | .price | tonumber'); TOTAL=$(echo $TRXPRICE'*'$BTCUSDPRICE | bc); printf '%.3f' \\\"$TOTAL\\\" \"\rset json to \"$\" & json\rreturn json",
+            "BTTTouchBarAlternateBackgroundColor" : "109.650002, 109.650002, 109.650002, 255.000000",
+            "BTTTouchBarScriptUpdateInterval" : 5
+          }
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
