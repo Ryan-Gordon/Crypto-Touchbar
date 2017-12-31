@@ -25,7 +25,7 @@
             "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
             "BTTTouchBarButtonColor" : "240, 240, 240, 255.000000",
             "BTTTouchBarAlwaysShowButton" : "1",
-            "BTTTouchBarAppleScriptString" : "set json to do shell script \"printf '%.2f' $(curl -s https:\/\/api.btcmarkets.net\/market\/BTC\/AUD\/tick | \/usr\/local\/bin\/jq '.lastPrice')\"\rset json to \"$\" & json\rreturn json",
+            "BTTTouchBarAppleScriptString" : "set json to do shell script \"printf '%.2f' $(curl -s https:\/\/api.btcmarkets.net\/market\/BTC\/AUD\/tick | python -c 'import json,sys;obj=json.load(sys.stdin);print obj[\\\"lastPrice\\\"]')\"\rset json to \"$\" & json\rreturn json",
             "BTTTouchBarAlternateBackgroundColor" : "109.650002, 109.650002, 109.650002, 255.000000",
             "BTTTouchBarScriptUpdateInterval" : 5
           }

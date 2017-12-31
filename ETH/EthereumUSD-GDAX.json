@@ -25,7 +25,7 @@
             "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
             "BTTTouchBarButtonColor" : "153, 184, 224, 255.000000",
             "BTTTouchBarAlwaysShowButton" : "1",
-            "BTTTouchBarAppleScriptString" : "set json to do shell script \"printf $(curl -s https:\/\/api.gdax.com\/products\/ETH-USD\/ticker | \/usr\/local\/bin\/jq '.price|tonumber')\"\rset json to \"$\" & json\rreturn json",
+            "BTTTouchBarAppleScriptString" : "set json to do shell script \"printf '%.2f' $(curl -s https:\/\/api.gdax.com\/products\/ETH-USD\/ticker | python -c 'import json,sys;obj=json.load(sys.stdin);print obj[\\\"price\\\"]')\"\rset json to \"$\" & json\rreturn json",
             "BTTTouchBarAlternateBackgroundColor" : "109.650002, 109.650002, 109.650002, 255.000000",
             "BTTTouchBarScriptUpdateInterval" : 5
           }

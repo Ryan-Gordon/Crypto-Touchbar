@@ -25,7 +25,7 @@
               "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
               "BTTTouchBarButtonColor" : "19, 77, 78, 255.000000",
               "BTTTouchBarAlwaysShowButton" : "1",
-              "BTTTouchBarAppleScriptString" : "set json to do shell script \"LC_NUMERIC='en_US.UTF-8' printf '%.2f' $(curl -s https:\/\/api.bitfinex.com\/v2\/ticker\/tIOTUSD | \/usr\/local\/bin\/jq '.[6]')\"\rset json to \"$\" & json\rreturn json",
+              "BTTTouchBarAppleScriptString" : "set json to do shell script \"LC_NUMERIC='en_US.UTF-8' printf '%.2f' $(curl -s https:\/\/api.bitfinex.com\/v2\/ticker\/tIOTUSD | python -c 'import json,sys;obj=json.load(sys.stdin);print obj[6]')\"\rset json to \"$\" & json\rreturn json",
               "BTTTouchBarAlternateBackgroundColor" : "109.650002, 109.650002, 109.650002, 255.000000",
               "BTTTouchBarScriptUpdateInterval" : 5
             }
