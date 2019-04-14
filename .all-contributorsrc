@@ -46,6 +46,15 @@
         "code",
         "tool"
       ]
+    },
+    {
+      "login": "quentinlesceller",
+      "name": "Quentin Le Sceller",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11842328?v=4",
+      "profile": "http://lesceller.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github"
