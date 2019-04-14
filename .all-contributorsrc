@@ -1,0 +1,88 @@
+{
+  "projectName": "Crypto Touchbar",
+  "projectOwner": "Ryan-Gordon",
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat)](#contributors)",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "Ryan-Gordon",
+      "name": "Ryan Gordon",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11082710?v=4",
+      "profile": "https://github.com/Ryan-Gordon",
+      "contributions": [
+        "code",
+        "design",
+        "tool"
+      ]
+    },
+    {
+      "login": "khell",
+      "name": "Cameron Yan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/114870?v=4",
+      "profile": "http://www.khell.org",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vietquocnguyen",
+      "name": "vietquocnguyen",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/207982?v=4",
+      "profile": "https://github.com/vietquocnguyen",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "chrislennon",
+      "name": "Chris Lennon",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9197696?v=4",
+      "profile": "https://github.com/chrislennon",
+      "contributions": [
+        "code",
+        "tool"
+      ]
+    },
+    {
+      "login": "quentinlesceller",
+      "name": "Quentin Le Sceller",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11842328?v=4",
+      "profile": "http://lesceller.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "OlegGordiichuk",
+      "name": "Oleg Gordiichuk",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3758731?v=4",
+      "profile": "http://gordiichuk.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mattbailey",
+      "name": "Matt Bailey",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/216331?v=4",
+      "profile": "http://mdb.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jaymedavis",
+      "name": "Jayme Davis",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/171522?v=4",
+      "profile": "http://twitter.com/jaymed",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "repoType": "github"
+}
