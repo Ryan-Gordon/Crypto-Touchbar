@@ -1,0 +1,25 @@
+{
+  "name": "crypto-touchbar",
+  "version": "1.0.0",
+  "description": "This is an add-on (via Better Touch Tool) to get Cryptocurrency prices on your MacBook Touchbar",
+  "main": "index.js",
+  "scripts": {
+    "add-contributor": "all-contributors add",
+    "generate-contributors": "all-contributors generate"
+  },
+  "dependencies": {
+    "all-contributors-cli": "^6.2.0",
+    "github-contributors": "^0.4.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-Gordon/Crypto-Touchbar.git"
+  },
+  "author": "Ryan Gordon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ryan-Gordon/Crypto-Touchbar/issues"
+  },
+  "homepage": "https://github.com/Ryan-Gordon/Crypto-Touchbar#readme"
+}

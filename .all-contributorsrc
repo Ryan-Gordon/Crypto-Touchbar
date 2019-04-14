@@ -1,0 +1,33 @@
+{
+  "projectName": "Crypto Touchbar",
+  "projectOwner": "Ryan-Gordon",
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat)](#contributors)",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "Ryan-Gordon",
+      "name": "Ryan Gordon",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11082710?v=4",
+      "profile": "https://github.com/Ryan-Gordon",
+      "contributions": [
+        "code",
+        "design",
+        "tool"
+      ]
+    },
+    {
+      "login": "khell",
+      "name": "Cameron Yan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/114870?v=4",
+      "profile": "http://www.khell.org",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "repoType": "github"
+}
