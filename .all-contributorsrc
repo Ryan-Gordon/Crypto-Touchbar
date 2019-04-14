@@ -73,6 +73,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jaymedavis",
+      "name": "Jayme Davis",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/171522?v=4",
+      "profile": "http://twitter.com/jaymed",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github"
