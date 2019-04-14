@@ -64,6 +64,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "mattbailey",
+      "name": "Matt Bailey",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/216331?v=4",
+      "profile": "http://mdb.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github"
